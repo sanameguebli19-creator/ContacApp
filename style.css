@@ -9,7 +9,7 @@ body {
   background-color: #f5f5f5;
   color: #333;
 }
-header {
+.header {
   background-color: #e0e0e0;
   padding: 20px 40px;
   display: flex;
@@ -17,13 +17,38 @@ header {
   align-items: center;
 }
 
-header h1 {
-  font-size: 20px;
-}
 
-nav a {
+.header nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #000;
-  font-weight: 500;
+  
+}
+.hero {
+  max-width: 600px;
+  margin: 80px auto;
+  text-align: left;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.video-text {
+  margin-top: 40px;
+  font-size: 14px;
 }
