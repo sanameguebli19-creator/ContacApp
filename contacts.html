@@ -2,41 +2,37 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>ContactApp - Contacts</title>
+  <title>Contacts</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header class="header">
-    <h1>ContactApp</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="contacts.html">Contacts</a>
-      <a href="ajouter.html">Ajouter</a>
-    </nav>
-  </header>
+<header class="header">
+  <h1>ContactApp</h1>
+  <nav class="nav">
+    <a href="index.html">Accueil</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="ajouter.html">Ajouter</a>
+  </nav>
+</header>
 
-  <main>
-    <h2>Mes contacts</h2>
+<main class="contacts">
+  <h2>Mes contacts</h2>
 
-    <section class="contacts">
-      <div class="contact-card">
-        <div class="avatar"></div>
-        <h3>Jean Dupont</h3>
-        <p>jean@email.com</p>
-        <p>06 00 00 00 00</p>
-        <button>Voir</button>
-      </div>
+  <div class="contacts-grid">
+    <div class="card">
+      <h3>Marie Dupont</h3>
+      <p>marie@email.com</p>
+      <p>0600000000</p>
+    </div>
 
-      <div class="contact-card">
-        <div class="avatar"></div>
-        <h3>Marie Martin</h3>
-        <p>marie@email.com</p>
-        <p>07 11 22 33 44</p>
-        <button>Voir</button>
-      </div>
-    </section>
-  </main>
+    <div class="card">
+      <h3>Jean Martin</h3>
+      <p>jean@email.com</p>
+      <p>0700000000</p>
+    </div>
+  </div>
+</main>
 
 </body>
 </html>
