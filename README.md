@@ -27,5 +27,3 @@ Maquette réalisée avec Figma.
 - Affichage des contacts
 - Structure prête pour le stockage local
 
-## 👩‍💻 Auteur
-Projet réalisé par [Ton Nom]
